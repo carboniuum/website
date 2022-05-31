@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .title {
+        @apply text-[40px] lg:text-[48px] xl:text-[60px] font-[600];
+    }
+    .title-2 {
+        @apply text-[30px] sm:text-[48px] font-medium;
+    }
+    .main-color {
+        color: #030A1B;
+    }
+    .main-color-p {
+        color: #030A1B;
+        opacity: 0.7;
+    }
+    .main-background {
+        background: #1E252B;
+    }
+}
