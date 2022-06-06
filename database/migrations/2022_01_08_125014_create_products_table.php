@@ -20,6 +20,8 @@ class CreateProductsTable extends Migration
             $table->text('description')->nullable();
             $table->string('cover');
             $table->string('images', 500)->nullable();
+            $table->string('file_names')->nullable();
+            $table->string('files', 500)->nullable();
             $table->foreignId('brand_id')
                     ->constrained('brands')
                     ->onDelete('cascade');

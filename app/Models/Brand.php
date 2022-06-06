@@ -10,7 +10,7 @@ class Brand extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'sort','description', 'image', 'image_dark'];
+    protected $fillable = ['name', 'sort', 'description', 'image', 'image_dark'];
 
     public function products(): HasMany
     {
